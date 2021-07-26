@@ -42,5 +42,45 @@
             "descripcion": "Este museo cuenta con la exibicion de mas de 300 mascaras de todo tipo, donde se incluyen mascaras dentro de la region del totonocapan, otras partes del estado de Veracruz y del mundo en general.",
             "imagen": "./assets/img/patrimonios/museo_mascaras.jpg"
         }
-    ] 
+    ],
+
+    "tradiciones": [
+        {
+            "id": 0,
+            "nombre": "NOMBRE TRADICION",
+            "descripcion": "DESCRIPCION TRADICION",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        }
+    ],
+
+    "gastronomia": [
+        {
+            "id": 0,
+            "nombre": "NOMBRE DEL PLATILLO",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        }
+    ],
+
+    "eventos": [
+        {
+            "id": 0,
+            "nombre": "NOMBRE DEL EVENTO",
+            "descripcion": "DESCRIPCION NOMBRE DEL EVENTO",
+            "horario": "FECHA Y HORA DEL EVENTO",
+            "lugar": "LUGAR DEL EVENTO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        }
+    ],
+
+    "servicios": [
+        {
+            "id": 0,
+            "nombre": "NOMBRE DEL SERVICIO",
+            "descripcion": "DESCRIPCION DEL SERVICIO",
+            "url": "ENLACE DEL SITIO QUE OFRECE EL SERVICIO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        }
+    ]
+
 }

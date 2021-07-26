@@ -1,0 +1,46 @@
+{
+    "patrimonios":[
+        {
+            "id": 0,
+            "nombre": "Parroquia de nuestra señora de la Asunción",
+            "descripcion": "Ubicada a un costado del Mural de la Cultura Totonaca, sobre una pequeña colina, esta construcción es el edificio religioso más importante de Papantla. Aunque luce una fachada muy sencilla, se sabe que fue levantado a principios del siglo XVIII por la orden franciscana.",
+            "imagen": "./assets/img/patrimonios/parroquia.jpg"
+        },
+        {
+            "id": 1,
+            "nombre": "Mural “Homenaje a la Cultura totonaca”",
+            "descripcion": "Mural escultórico a la cultura Totonaca realizado por el Maestro Teodoro Cano García, en el cual se representa la evolución de la cultura Totonaca enmarcada en el cuerpo de Quetzalcóatl y que se localiza en el centro de la ciudad frente al parque central.",
+            "imagen": "./assets/img/patrimonios/mural_totonaca.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Parque Ecológico Xanath",
+            "descripcion": "El parque cuenta con 22 hectáreas y están divididas en 2 áreas, la cultural y la campestre. La Vainilla es parte fundamental del parque y se ofrece un tour donde se te mostrará el proceso de sembrado y el cultivo de esta maravillosa orquidea. Este parque también ofrece otros tours como el de los alimentos y el de las artesanías. Si quieres disfrutar aún más de la naturaleza también cuentan con áreas para acampar.",
+            "imagen": "./assets/img/patrimonios/xanath.jpg"
+        },
+        {   
+            "id": 3,
+            "nombre": "Sitio Arqueológico Tajín",
+            "descripcion": "Fue fundada hacia el año 1200 por indígenas de Tuzapan, herederos de los olmecas, quienes llegaron a dominar la extensa región donde floreció la cultura totonaca, creadora de la imponente ciudad de El Tajín, cuyo nombre significa “ciudad del trueno”.",
+            "imagen": "./assets/img/patrimonios/zona_tajin.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Capilla del Cristo Rey",
+            "descripcion": "La capilla de Cristo Rey en Xico es una de las más emblemáticas en el municipio; situada en uno de los puntos más altos de la ciudad, es un sitio obligado para los visitantes que gustan de contemplar su belleza arquitectónica, el fervor religioso y la tradición que guardan sus muros. Se encuentra a 8 minutos del centro de Xico, sobre la calle de Vicente Guerrero, en su atrio se encuentra simbolismos sobre los mandamientos y los 12 apóstoles. En este lugar es donde se confecciona el arco floral de la fiesta Patronal.",
+            "imagen": "./assets/img/patrimonios/capilla_cristo_rey.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Museo Teodoro Cano",
+            "descripcion": "Fundado por Teodoro Cano, nativo de Papantla, este museo cuenta con una sala de arqueología, otra de historia, otra de enografía, una que exhibe trajes típicos, la Casita Totonaca y una sala para exposiciones temporales. En este espacio podrás ver la obra de los alumnos de los talleres libres de arte y piezas que son parte de la identidad totonaca. La Casita Totonaca es una recreación de un hogar típico con todo lo que representa a esta cultura.",
+            "imagen": "./assets/img/patrimonios/museo_teodoro_cano.png"
+        },
+        {
+            "id": 6,
+            "nombre": "Museo de las Máscaras",
+            "descripcion": "Este museo cuenta con la exibicion de mas de 300 mascaras de todo tipo, donde se incluyen mascaras dentro de la region del totonocapan, otras partes del estado de Veracruz y del mundo en general.",
+            "imagen": "./assets/img/patrimonios/museo_mascaras.jpg"
+        }
+    ] 
+}

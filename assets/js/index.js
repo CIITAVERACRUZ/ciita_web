@@ -3,53 +3,59 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 function iniciarApp(){
-    mostrar();
+    mostrarInformacion();
 }
 
-async function mostrar(){
+async function mostrarInformacion(){
     try {
         const url = './info.json';
 
         const resultado = await fetch(url);
         const db = await resultado.json();
 
-        const { patrimonios } = db;
-        console.log(db);
+        const { patrimonios, tradiciones, eventos, gastronomia, servicios } = db;
 
-        //Generar el HTML
-        patrimonios.forEach( patrimonio => { 
-            const { nombre, descripcion, imagen } = patrimonio;
-        
-            //DOM Scripting
-            const nombrePatrimonio = document.createElement('P');
-            nombrePatrimonio.textContent = nombre;
-            nombrePatrimonio.classList.add('nombre-patrimonio');
+        // Funcion para mandar los arrglos correspondientes y el id de la seccion correspondiente
+        domContent(patrimonios, '#patrimonios_card');
 
-            const descripcionPatrimonio = document.createElement('P');
-            descripcionPatrimonio.textContent = descripcion;
-            descripcionPatrimonio.classList.add('info-patrimonio');
-
-            const imagenPatrimonio = document.createElement('IMG');
-            imagenPatrimonio.setAttribute('src', imagen)
-
-            const patrimonioDiv = document.createElement('DIV');
-            patrimonioDiv.classList.add('patrimonio-info');
-            
-            const patrimonioCard = document.createElement('DIV');
-            patrimonioCard.classList.add('patrimonio', 'card');
-
-            const patrimonioInfo = document.createElement('A');
-
-            patrimonioDiv.appendChild(nombrePatrimonio);
-            patrimonioDiv.appendChild(descripcionPatrimonio);
-            patrimonioInfo.appendChild(imagenPatrimonio)
-            patrimonioInfo.appendChild(patrimonioDiv)
-            patrimonioCard.appendChild(patrimonioInfo);
-
-            //Inyectar en HTML
-            document.querySelector('#patrimonios_card').appendChild(patrimonioCard);
-        })
     } catch (error) {
         console.log(error)
     }
+}
+
+function domContent(array, seccion) {
+    
+    //Generar el HTML
+    array.forEach( patrimonio => { 
+        const { nombre, descripcion, imagen } = patrimonio;
+            
+        //DOM Scripting
+        const name = document.createElement('P');
+        name.textContent = nombre;
+        name.classList.add('nombre-patrimonio');
+    
+        const info = document.createElement('P');
+        info.textContent = descripcion;
+        info.classList.add('info-patrimonio');
+    
+        const picture = document.createElement('IMG');
+        picture.setAttribute('src', imagen)
+    
+        const firstDiv = document.createElement('DIV');
+        firstDiv.classList.add('patrimonio-info');
+                
+        const carta = document.createElement('DIV');
+        carta.classList.add('patrimonio', 'card');
+    
+        const contenido = document.createElement('DIV');
+    
+        firstDiv.appendChild(name);
+        firstDiv.appendChild(info);
+        contenido.appendChild(picture)
+        contenido.appendChild(firstDiv)
+        carta.appendChild(contenido);
+    
+        //Inyectar en HTML
+        document.querySelector(seccion).appendChild(carta);
+    })
 }

@@ -16,17 +16,57 @@
       padding: 0;
     }
 </style>  
-<body>
+<body>    
+    <div id="map"></div>
     <script>
-        let map;
         function initMap() {
-            map = new google.maps.Map(document.getElementById("map"), {
-            center: { lat: 20.4459759, lng: -97.322183 },
-            zoom: 10,
+            //Papantla
+            let location = { 
+                lat: 20.4459759, 
+                lng: -97.322183 
+            };
+            //Map
+            let map = new google.maps.Map(document.getElementById("map"), {
+                center: location,
+                zoom: 10,
             });
+            //Marker
+            const marker = new google.maps.Marker({
+                position: location,
+                map: map,
+                label: 'A',
+                title: 'Aquí esta un patrimonio en Papantla',
+                optimized: true
+                //icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'        
+            });    
+
+            //Content Info
+            const htmlContent =
+            '<div id="content">' +
+                '<h1>Parroquia de Nuestra Señora de la Asunción</h1>' +
+                '<div>' +
+                    "<p>Ubicada a un costado del Mural de la Cultura Totonaca, sobre una pequeña colina, esta construcción es el edificio religioso más importante de Papantla. Aunque luce una fachada muy sencilla, se sabe que fue levantado a principios del siglo XVIII por la orden franciscana.</p>" +
+                    "<p>Sus cenefas están decoradas con detalles de la flor de la vainilla y el símbolo de Nahui-Ollin.</p>" +
+                    '<img width="100%" src="https://papantlaveracruz.com.mx/wp-content/uploads/2020/07/MEJORAN-IMAGEN-DE-LA-PARROQUIA-DE-LA-ASUNCI%C3%93N3.jpg">' +
+                "</div>" +
+            "</div>";
+
+            const infowindow = new google.maps.InfoWindow({
+                content: htmlContent,
+            });
+
+            marker.addListener("click", () => {
+                infowindow.open({
+                    anchor: marker,
+                    map,
+                    shouldFocus: false,
+                });
+            });
+
+               
         }
     </script>
-    <div id="map"></div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZLPAY9idS1j3VdQhQpZ50LDATHEVu-OI&callback=initMap&libraries=&v=weekly" async></script>                                                             
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>    
 </body>
 </html>

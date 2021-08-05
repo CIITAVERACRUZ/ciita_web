@@ -41,12 +41,60 @@
             "nombre": "Museo de las Máscaras",
             "descripcion": "Este museo cuenta con la exibicion de mas de 300 mascaras de todo tipo, donde se incluyen mascaras dentro de la region del totonocapan, otras partes del estado de Veracruz y del mundo en general.",
             "imagen": "./assets/img/patrimonios/museo_mascaras.jpg"
+        },
+        {
+            "id": 7,
+            "nombre": "Zona Arqueológica de Cuyuxquihui",
+            "descripcion": "Los movimientos poblacionales provocan abandonos y fundaciones nuevas debido a la pérdida de un núcleo rector en la región. En el caso de Cuyuxquihui se han identificado estructuras arquitectónicas similares a fortificaciones, por lo que se interpreta que estos movimientos fueron acompañados de conflictos bélicos entre grupos.",
+            "imagen": "./assets/img/patrimonios/cuyuxquihui.jpg"
+        },
+        {
+            "id": 8,
+            "nombre": "Mercado Municipal Miguel Hidalgo",
+            "descripcion": "Aquí podrás encontrar una extensa variedad de artesanías totonacas: bolsas, sombreros, abanico, textiles (es posible conseguir vestimentas típicas de los danzantes, quienes también son representados en figuras de barro y cerámica vidriada), sombreros, figuras de barro, cerámica, productos de madera y la vainilla en todas sus presentaciones, (principal cultivo de la zona) la venden en vaina o alguna figura hecha por los lugareños.",
+            "imagen": "./assets/img/patrimonios/mercado_miguel_hidalgo.jpg"
+        },
+        {
+            "id": 9,
+            "nombre": "Museo de Sitio del Tajín",
+            "descripcion": "El museo cuenta con una sola planta y se divide en dos salas, donde el visitante puede dar un paseo a lo largo de la historia de Tajín, conociendo su contexto general en las cédulas de introducción, para después adentrarse en el pensamiento religioso, la vida cotidiana, las clases sociales y conocer además uno de los rituales que da fama al sitio de Tajín: el juego de pelota",
+            "imagen": "./assets/img/patrimonios/museo_tajin.jpg"
+        },
+        {
+            "id": 10,
+            "nombre": "Parques Ecológicos Kiwikgolo",
+            "descripcion": "El parque ecológico “Kiwikgolo” es naturaleza, armonía y mucho aprendizaje de la cultura totonaca y está considerado para ser incluido en las listas de las Áreas Naturales Protegidas de Veracruz. El área natural conserva todavía reservorios de la flora original de la región, además cuenta con un mariposario para proteger y conocer a estos emblemáticos insectos. Se trata de un espacio familiar que cuenta con atractivos para los más valientes, como una tirolesa de 470 metros de recorrido sobre los árboles.",
+            "imagen": "./assets/img/patrimonios/parque_kiwikgolo.jpg"
         }
     ],
 
     "tradiciones": [
         {
             "id": 0,
+            "nombre": "Voladores de Papantla",
+            "descripcion": "El origen de los famosos Voladores de Papantla es una plegaria a la divinidad para que haga caer la lluvia sobre los cultivos en tiempos de sequía. Universal y ancestral, esta danza de la fertilidad está plagada de simbolismos.",
+            "imagen": "./assets/img/tradiciones/voladores_papantla.jpg"
+        },
+        {
+            "id": 1,
+            "nombre": "Fiestas de Corpus Christi",
+            "descripcion": "Se lleva a cabo en junio, es la principal celebración de Papantla; se realiza la famosa danza de los Voladores de Papantla, que consiste en un descenso giratorio desde lo alto de una estructura vertical, al ritmo de un toque musical que ejecuta un danzante en su punta. Según su significado indígena, se trata de hombres pájaro que bailan para agradar a sus dioses. Durante esta festividad también es posible contemplar otro tipo de danzas, como la de Los Guaguas, siempre con el atractivo que representa el colorido de sus trajes.",
+            "imagen": "./assets/img/corpus_christi,jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "NOMBRE TRADICION",
+            "descripcion": "DESCRIPCION TRADICION",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 3,
+            "nombre": "NOMBRE TRADICION",
+            "descripcion": "DESCRIPCION TRADICION",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 4,
             "nombre": "NOMBRE TRADICION",
             "descripcion": "DESCRIPCION TRADICION",
             "imagen": "DIRECCION DE LA IMAGEN"
@@ -56,7 +104,97 @@
     "gastronomia": [
         {
             "id": 0,
-            "nombre": "NOMBRE DEL PLATILLO",
+            "nombre": "Mole con carne de cerdo, gallina o guajolote",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 1,
+            "nombre": "Tamales de Fríjol y Acoyotl",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 2,
+            "nombre": "Tamales de Picadillo",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 3,
+            "nombre": "Tamal Envuelto en Hoja de Plátano con Carne de Cerdo",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 4,
+            "nombre": "Bollitos de Anís y Pintos",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 5,
+            "nombre": "Totopos de Maíz con Sal o Azúcar",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 6,
+            "nombre": "Tintines",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 7,
+            "nombre": "Pemoles",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 8,
+            "nombre": "Enchiladas de Jitomate",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 9,
+            "nombre": "Enchiladas de Pipián",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 10,
+            "nombre": "Zacahuil",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 11,
+            "nombre": "Bocoles Rellenos",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 12,
+            "nombre": "Dulces de calabaza",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 13,
+            "nombre": "Atole de Diversos Dabores, Fríos o Calientes",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 14,
+            "nombre": "Manu de Res",
+            "descripcion": "DESCRIPCION DEL PLATILLO",
+            "imagen": "DIRECCION DE LA IMAGEN"
+        },
+        {
+            "id": 15,
+            "nombre": "Molotes",
             "descripcion": "DESCRIPCION DEL PLATILLO",
             "imagen": "DIRECCION DE LA IMAGEN"
         }
@@ -73,14 +211,53 @@
         }
     ],
 
-    "servicios": [
-        {
-            "id": 0,
-            "nombre": "NOMBRE DEL SERVICIO",
-            "descripcion": "DESCRIPCION DEL SERVICIO",
-            "url": "ENLACE DEL SITIO QUE OFRECE EL SERVICIO",
-            "imagen": "DIRECCION DE LA IMAGEN"
-        }
-    ]
+    "servicios":{ 
+        "transporte": [
+            {
+                "id": 0,
+                "nombre": "Mercurio Express",
+                "descripcion": "Salvador Díaz Mirón #1930, Fracc. Moderno",
+                "url": "http://www.mercurioexpress.com.mx/",
+                "telefono": "",
+                "email": ""
+            }
+        ],
+        "hospedaje": [
+            {
+                "id": 0,
+                "nombre": "NOMBRE DEL SERVICIO",
+                "descripcion": "DESCRIPCION DEL SERVICIO",
+                "url": "ENLACE DEL SITIO QUE OFRECE EL SERVICIO",
+                "imagen": "DIRECCION DE LA IMAGEN"
+            }
+        ],
+        "comida": [
+            {
+                "id": 0,
+                "nombre": "NOMBRE DEL SERVICIO",
+                "descripcion": "DESCRIPCION DEL SERVICIO",
+                "url": "ENLACE DEL SITIO QUE OFRECE EL SERVICIO",
+                "imagen": "DIRECCION DE LA IMAGEN"
+            }
+        ],
+        "generales": [
+            {
+                "id": 0,
+                "nombre": "NOMBRE DEL SERVICIO",
+                "descripcion": "DESCRIPCION DEL SERVICIO",
+                "url": "ENLACE DEL SITIO QUE OFRECE EL SERVICIO",
+                "imagen": "DIRECCION DE LA IMAGEN"
+            }
+        ],
+        "atractivos": [
+            {
+                "id": 0,
+                "nombre": "NOMBRE DEL SERVICIO",
+                "descripcion": "DESCRIPCION DEL SERVICIO",
+                "url": "ENLACE DEL SITIO QUE OFRECE EL SERVICIO",
+                "imagen": "DIRECCION DE LA IMAGEN"
+            }
+        ]
+    }
 
 }

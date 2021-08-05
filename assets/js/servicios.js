@@ -13,12 +13,11 @@ async function mostrarInformacion(){
         const resultado = await fetch(url);
         const db = await resultado.json();
 
-        const { patrimonios, tradiciones, eventos, gastronomia } = db;
+        console.log(db.servicios);
+        const { transporte } = db.servicios;
 
         // Funcion para mandar los arrglos correspondientes y el id de la seccion correspondiente
-        domContent(patrimonios, '#patrimonios_card');
-        domContent(tradiciones, '#tradiciones_card');
-        domContent(gastronomia, '#gastronomia_card');
+        domContent(transporte, '#servicios_card');
 
     } catch (error) {
         console.log(error)

@@ -1,9 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+:root{
+    --blanco: #ffffff;
+    --negro: #000000;
+    --primario: #db0030;
+    --secundario: #00dbab;
+    --gris: #757575;
+}
+
 body {
     font-family: 'Lora', sans-serif;
 }
 
+img, svg {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .darker-img {
     filter: brightness(50%);
+}
+
+.contenedor{
+    max-width: 140rem;
+    margin: 0 auto;
+}
+
+.card{
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 1.5rem;
+    transition: all 0.25s;
+}
+
+.card img{
+    height: 220px;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(102,102,102,0.5);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(102,102,102,0.5);
+    box-shadow: 0px 5px 15px 0px rgba(102,102,102,0.5);
+    padding: 1.8rem;
+    background-color: var(--blanco);
+    border-radius: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 720px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.patrimonio {
+    background-color: var(--gris);
+    padding: 1rem;
+}
+
+.nombre-patrimonio {
+    font-size: 20px;
+    color: var(--secundario);
+    font-weight: bold;
+}
+
+.info-patrimonio {
+    font-size: 15px;
+    color: var(--blanco);
+}
+
+.nombre-patrimonio,
+.info-patrimonio {
+    font-family: var(--fuente);
+    margin: 1rem 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.papantla {
+    font-size: 18px;
 }

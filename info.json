@@ -79,7 +79,7 @@
             "id": 1,
             "nombre": "Fiestas de Corpus Christi",
             "descripcion": "Se lleva a cabo en junio, es la principal celebración de Papantla; se realiza la famosa danza de los Voladores de Papantla, que consiste en un descenso giratorio desde lo alto de una estructura vertical, al ritmo de un toque musical que ejecuta un danzante en su punta. Según su significado indígena, se trata de hombres pájaro que bailan para agradar a sus dioses. Durante esta festividad también es posible contemplar otro tipo de danzas, como la de Los Guaguas, siempre con el atractivo que representa el colorido de sus trajes.",
-            "imagen": "./assets/img/corpus_christi,jpg"
+            "imagen": "./assets/img/tradiciones/corpus_christi.jpg"
         },
         {
             "id": 2,
@@ -216,10 +216,50 @@
             {
                 "id": 0,
                 "nombre": "Mercurio Express",
-                "descripcion": "Salvador Díaz Mirón #1930, Fracc. Moderno",
+                "direccion": "Salvador Díaz Mirón #1930, Fracc. Moderno",
                 "url": "http://www.mercurioexpress.com.mx/",
-                "telefono": "",
-                "email": ""
+                "telefono": ["229-935-8632", "229-356-7475"],
+                "email": ["comentarios@mercurioexpress.com.mx"]
+            },
+            {
+                "id": 1,
+                "nombre": "Viajes Turisticos Veracruz",
+                "direccion": "Av. 11 #1703, Col. Centro, Cordoba, Veracruz",
+                "url": "https://www.viajesturisticosveracruz.com/",
+                "telefono": ["271-714-7989", "271-714-7520"],
+                "email": ["ventas@vtv.com.mx"]
+            },
+            {
+                "id": 2,
+                "nombre": "ETP de Veracruz, SA de CV",
+                "direccion": "Prol. Salvador Diaz Mirón #4325, Pastora, Floresta",
+                "url": "https://etpver.com.mx/",
+                "telefono": ["229-921-8820", "229-921-8821"],
+                "email": ["ventas@etpver.com.mx", "turismo1@etpver.com.mx"]
+            },
+            {
+                "id": 3,
+                "nombre": "Grupo Alamaar Orizaba, SA de CV",
+                "direccion": "Sur 43 #307, Col. Centro",
+                "url": "https://www.grupoalmaar.com/",
+                "telefono": ["272-106-9283", "272-125-6196"],
+                "email": ["grupoalmaar@outlook.com"]
+            },
+            {
+                "id": 4,
+                "nombre": "Ocaso",
+                "direccion": "Blvd. Jalapa Banderillas #109, Col. 21 de Marzo",
+                "url": "https://omnibusocaso.com/",
+                "telefono": ["228-814-2056", "228-840-5972"],
+                "email": ["omnibusocaso@hotmail.com"]
+            },
+            {
+                "id": 5,
+                "nombre": "Cri Tours",
+                "direccion": "18,20, Costa Verde, Boca del Río",
+                "url": "https://critoursveracruz.com/transportaci%C3%B3n-tur%C3%Adstica",
+                "telefono": ["229-935-9132"],
+                "email": ["contacto@critoursveracruz.com"]
             }
         ],
         "hospedaje": [

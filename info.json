@@ -219,7 +219,11 @@
                 "direccion": "Salvador Díaz Mirón #1930, Fracc. Moderno",
                 "url": "http://www.mercurioexpress.com.mx/",
                 "telefono": ["229-935-8632", "229-356-7475"],
-                "email": ["comentarios@mercurioexpress.com.mx"]
+                "email": ["comentarios@mercurioexpress.com.mx"],
+                "ubicacion": {
+                    "lat" : 19.176397220008273,
+                    "lng": -96.1339951719591
+                }
             },
             {
                 "id": 1,

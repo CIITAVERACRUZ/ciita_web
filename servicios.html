@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Visita Papantla</title>
+</head>
+<!--
+Colores:
+    teal darken-1
+    deep-orange lighten-2
+    pink lighten-1
+    pink accent-4
+    pink darken-4
+-->
+<body>
+    <nav class="teal darken-1">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo"><img src="./assets/img/logo.png" class="responsive-img" style="max-width: 30%; margin-top: 5%" alt="" srcset=""></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Patrimonios</a></li>
+                <li><a href="#">Gastronomía</a></li>
+                <li><a href="#">Tradiciones</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Eventos</a></li>
+            </ul>        
+            <ul id="nav-mobile" class="sidenav pink lighten-1">
+                <li><a href="#" class="white-text">Patrimonios</a></li>
+                <li><a href="#" class="white-text">Gastronomía</a></li>
+                <li><a href="#" class="white-text">Tradiciones</a></li>
+                <li><a href="#" class="white-text">Servicios</a></li>
+                <li><a href="#">Eventos</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>    
+    <div class="parallax-container paral-1">
+        <div class="parallax"><img src="./assets/img/parallax-1.png" class="darker-img"></div>   
+        <br>
+        <br>
+        <br>
+        <br>         
+        <h1 class="header center pink-text text-pink-accent-4">Visita Papantla, Veracruz</h1>
+        <h5 class="header center white-text">La ciudad que perfuma el mundo</h5>   
+    </div>        
+    <div class="contenedor sombra">
+        <h3 class="text-center" id="name_service"></h3>
+        <div class="grid" id="servicios_card">
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/js/materialize.autoinit.js"></script>
+    <script src="./assets/js/servicios.js"></script>
+</body>
+</html>

@@ -105,98 +105,92 @@
         {
             "id": 0,
             "nombre": "Mole con carne de cerdo, gallina o guajolote",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Disfruta de un delicioso mole papanteco con una rica pieza de pollo o de guajolóte y unas deliciosas enmoladas, como sea que lo pruebes el mole papanteco es el más rico de la región totonaca.",
+            "imagen": "./assets/img/platillos/mole_con_carne.png"
         },
         {
             "id": 1,
-            "nombre": "Tamales de Fríjol y Acoyotl",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "nombre": "Tamales de Fríjol",
+            "descripcion": "Son básicos en la alimentación cotidiana, nos dan identidad y hablan de nuestra propia historia, de la forma en que nuestros antepasados supieron contemplar el medio ambiente y aprovechar hojas, frutos, semillas, tallos, raíces y flores. Hacerlos supone no solo una forma de alimentarse sino de concebir el mundo.",
+            "imagen": "./assets/img/platillos/tamal_frijol.png"
         },
         {
             "id": 2,
             "nombre": "Tamales de Picadillo",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Los totonacas de la costa norte del estado de Veracruz confeccionan este tamal con masa de maíz rellena de picadillo de carne de pollo, papa, zanahoria, pasitas, alcaparras, aceitunas, almendras o piñón, guisados en salsa de jitomate, hierbas de olor y pimienta.",
+            "imagen": "./assets/img/platillos/tamal_picadillo.png"
         },
         {
             "id": 3,
             "nombre": "Tamal Envuelto en Hoja de Plátano con Carne de Cerdo",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Estos tamales veracruzanos con carne de puerco son famosos en la cocina mexicana jarocha; el chile guajilo y la hoja de plátano hacen la diferencia.",
+            "imagen": "./assets/img/platillos/tamal_hoja_platano.png"
         },
         {
             "id": 4,
             "nombre": "Bollitos de Anís y Pintos",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "En Veracruz existe una gran variedad de tamales, y, al tener influencia española en su gastronomía, genera este tipo de recetas mestizas que combina lo prehispánico con lo colonial. Esta variedad de tamal no es muy dulce, ya que tiene miel de abeja en lugar de azúcar, por lo que se puede incluir para hacer algo más dulce.",
+            "imagen": "./assets/img/platillos/bollitos.png"
         },
         {
             "id": 5,
             "nombre": "Totopos de Maíz con Sal o Azúcar",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Alimento tradicional de la región que por lo regular se sirve al centro como entrada o para acompañar ciertos platillos.",
+            "imagen": "./assets/img/platillos/totopos.png"
         },
         {
             "id": 6,
             "nombre": "Tintines",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Galletas tipo polvorón elaboradas de masa de maíz molido con anís y panela. A la masa se le da forma redonda y gruesa de aproximadamente 3 cm de diámetro y se cuecen al comal; su sabor recuerda al pinole del centro del país.",
+            "imagen": "./assets/img/platillos/tintines.png"
         },
         {
             "id": 7,
             "nombre": "Pemoles",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Los pemoles son unas galletas en forma de rosquilla que se hacen en toda la Huasteca. Se pueden decorar con azúcar glass y pueden ser consumidas solas o acompañadas de café, chocolate, así como leche.",
+            "imagen": "./assets/img/platillos/pemoles.png"
         },
         {
             "id": 8,
             "nombre": "Enchiladas de Jitomate",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Las enchiladas son uno de los platillos mexicanos más tradicionales. La característica principal de estas enchiladas radica en el uso de chiles chilacates, de un sabor tan especial que las hacen únicas.",
+            "imagen": "./assets/img/platillos/enchiladas_jitomate.jpg"
         },
         {
             "id": 9,
             "nombre": "Enchiladas de Pipián",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "El pipián es un platillo mexicano elaborado principalmente con pepita de calabaza y también que hay variedades de enchiladas, como por ejemplo el pipían verde, el blanco, el rojo, entre otros. En estas recetas no solo se utiliza la pepita, sino que también hay recetas que añaden cacahuate y ajonjolí.",
+            "imagen": "./assets/img/platillos/enchiladas_pipian.jpg"
         },
         {
             "id": 10,
             "nombre": "Zacahuil",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Entre la amplia variedad de tamales mexicanos podemos encontrar el zacahuil o zacahuile, el cual destaca por su gran tamaño. El zacahuil se elabora con masa de maíz martajado y molido con chile; tradicionalmente se rellena de carne y se envuelve con hoja de papatla y/o plátano. Finalmente es cocinado en horno de barro o de tierra.",
+            "imagen": "./assets/img/platillos/zacahuil.png"
         },
         {
             "id": 11,
             "nombre": "Bocoles Rellenos",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Estas pequeñas sabrosuras de masa circular se llaman “Bocoles” en la región de Huasteca de México. Estas deliciosas tortillitas gruesas de masa de maíz se pueden servir con queso, o rellenas como una gordita. Algunos de los rellenos son chicharrones de cerdo en salsa, huevos, picadillo y frijoles refritos.",
+            "imagen": "./assets/img/platillos/bocoles_rellenos.jpg"
         },
         {
             "id": 12,
             "nombre": "Dulces de calabaza",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "El Dulce de Calabaza en los hogares mexicanos, ya que la dicha fruta se vende en cualquier tianguis o mercado. Este delicioso postre mexicano se acostumbra preparar para los festejos de Día de Muertos.",
+            "imagen": "./assets/img/platillos/dulces_calabaza.jpg"
         },
         {
             "id": 13,
             "nombre": "Atole de Diversos Dabores, Fríos o Calientes",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "El Atole es una bebida muy popular en México. Se prepara agregando piloncillo o panela en agua más canela, luego se deja espesar con harina de maíz y por último se le adiciona leche hasta que quede cremoso. Esta dulce bebida reconfortante de maíz tiene innumerables variaciones como en puré de fruta o chocolate.",
+            "imagen": "./assets/img/platillos/atole.jpg"
         },
         {
             "id": 14,
-            "nombre": "Manu de Res",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
-        },
-        {
-            "id": 15,
             "nombre": "Molotes",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Los molotes son un antojito mexicano hecho con masa de maíz, mezclada con papa o con manteca, parecidos en la forma de hacerlos a una quesadilla o a una empanada frita, pero la forma de encerrar el relleno es diferente.",
+            "imagen": "./assets/img/platillos/molotes.jpg"
         }
     ],
 

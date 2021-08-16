@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     M.AutoInit();
     ScrollReveal({ reset: true });
-    ScrollReveal().reveal('.paral-1', { delay: 500 });
-    ScrollReveal().reveal('.container', { delay: 500 });
+    ScrollReveal().reveal('.titulo-principal', { delay: 500 });
+    ScrollReveal().reveal('.titulo-descripcion', { delay: 1000 });
+    ScrollReveal().reveal('.titulo-seccion', { delay: 500 });    
 });
 

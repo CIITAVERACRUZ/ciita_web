@@ -37,7 +37,7 @@ function domContent(array, seccion) {
         name.classList.add('nombre-patrimonio');
     
         const info = document.createElement('P');
-        info.textContent = descripcion;
+        info.innerHTML = descripcion;
         info.classList.add('info-patrimonio');
     
         const picture = document.createElement('IMG');

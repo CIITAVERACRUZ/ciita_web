@@ -65,6 +65,85 @@
             "nombre": "Parques Ecológicos Kiwikgolo",
             "descripcion": "El parque ecológico “Kiwikgolo” es naturaleza, armonía y mucho aprendizaje de la cultura totonaca y está considerado para ser incluido en las listas de las Áreas Naturales Protegidas de Veracruz. El área natural conserva todavía reservorios de la flora original de la región, además cuenta con un mariposario para proteger y conocer a estos emblemáticos insectos. Se trata de un espacio familiar que cuenta con atractivos para los más valientes, como una tirolesa de 470 metros de recorrido sobre los árboles.",
             "imagen": "./assets/img/patrimonios/parque_kiwikgolo.jpg"
+        },
+        {
+            "id": 11,
+            "nombre": "Casa de Cultura Lázara Meldiu",
+            "descripcion": "Este recinto te mostrara a través de pláticas, talleres, cursos y actividades culturales las bonitas costumbres y tradiciones que se realizan en el bello Papantla, te permitirá adentrarte en la historia de este lugar conocerás las tradiciones danzantes de los Totonacapan veracruzanos con magníficos videos que realizan sus bellas tradiciones y danzas en agradecimiento a los diversos dioses, grandes fiestas consagradas y sus diversos patrones provisorios de deidades.",
+            "imagen": "./assets/img/patrimonios/casa_cultura_lm.jpg"
+        },
+        {
+            "id": 12,
+            "nombre": "Centro de las Artes Indígenas",
+            "descripcion": "Con la intención de salvaguardar el patrimonio cultural de la región se creo el Centro de las Artes Indígenas, se encuentra dentro del Parque Takilhsukut de Papantla, es pionero en su genero y su principal finalidad es el enseñar oficios y actividades artísticos culturales para los habitantes y turistas del lugar.<br><br>Si ingresas al Parque Temático Takilhsukut no olvides visitar este centro que te dejara además de gran información un apoyo a los indígenas de la región",
+            "imagen": "./assets/img/patrimonios/centro_artes_indigenas.PNG"
+        },
+        {
+            "id": 13,
+            "nombre": "Parque Israel C. Tellez",
+            "descripcion": "Es uno de los parques mas representativos de la región, en el, se llevan a cabo diversas actividades y eventos culturales de la región, este parque data del año 1886 a lo largo del tiempo se han generado diversas remodelaciones y construcciones que han ayudado a tener un parque mas significativo y llamativo para los pobladores de la región, así como para los turistas.<br><br>Los viernes podrás disfrutar del danzón que se realiza, así como los sábados musicales y domingos culturales estos eventos se proyectan como escaparate para apoyo a los artistas y creativos de la región.",
+            "imagen": "./assets/img/patrimonios/parque_ict.jpg"
+        },
+        {
+            "id": 14,
+            "nombre": "Tenixtepec",
+            "descripcion": "Localizado en el municipio de Papantla con una población no mayor de 579 personas, una comunidad indígena donde su lenguaje es indígena ya que ellos no hablan español. Cuenta con una gran y maravillosa naturaleza llena de paisajes y monumentos que te enamoraran y te adentraran en la inmersa naturaleza de este lugar.<br><br>En Barra Tenixtepec hay múltiples opciones de diversión, es perfecta para la práctica de deportes acuáticos, para descansar y gozar de la naturaleza.<br><br>Localizada a 52 kilómetros de Barra de Cazones por la estatal sin número, te invitamos a que visites este lugar y ayudes a ser parte de la economía de la localidad.",
+            "imagen": "./assets/img/patrimonios/tenixtepec.jpg"
+        },
+        {
+            "id": 15,
+            "nombre": "Museo Comunitario Serafín Olarte",
+            "descripcion": "El museo comunitario Serfin Olarte es un espacio cultural que no puedes dejar de visitar. Reconocido ampliamente como ejemplo de autogestión comunitaria ya con mas de 35 años de haber sido creado.<br><br>Situado en el corazón de Cuyuxquihui fue inaugurado en 1985 cuando las tradicionales paredes de tarro y techado de palma conformaban sus salas etnográficas y arqueológicas, mismas que aun con apariencia sencilla estaban llenas de valores para quienes se preocupaban por la memoria histórica de su pueblo.",
+            "imagen": "./assets/img/patrimonios/museo_so.png"
+        },
+        {
+            "id": 16,
+            "nombre": "Mural \"En pleno vuelo\"",
+            "descripcion": "Este mural fue realizado por el artista José Martínez en el año 2018 y está situado en un edificio ubicado en el centro histórico de la ciudad.<br><br>Este plasma a un niño volador, el cual representa el futuro de la cultura totonaca, mismo que está en posición vertical en señal de fertilización de la tierra, tal y como ocurre en la danza de los Voladores.<br><br>Este mural forma parte de una galería al aire libre y abierta al público en general, ya que la ideología del creador de la obra es que la cultura y el arte deben estar al alcance de todos. Este colorido mural busca, según palabras del artista, inmortalizar la historia el presente.",
+            "imagen": "./assets/img/patrimonios/en_pleno_vuelo.png"
+        },
+        {
+            "id": 17,
+            "nombre": "Mercado de artesanías",
+            "descripcion": "El Mercado de Artesanías se inauguró el día 27 de junio del 2015, con el fin de que los productores de artesanías de las diferentes comunidades totonacas tuvieran un lugar digno donde ofrecer su mercancía, mostrándole al público la cultura, tradición y emociones que nos puede brindar un producto 100% artesanal totonaco.<br><br>En el Mercado de Artesanías se podrán encontrar artesanías de productores de diferentes comunidades totonacas. Destacando que los productos son elaborados con técnicas antiguas que han adquirido de generación en generación y así poder difundir la cultura en diferentes formas de productos artesanales.",
+            "imagen": "./assets/img/patrimonios/mercado_artesanias.png"
+        },
+        {
+            "id": 18,
+            "nombre": "Parque Takilhsukut",
+            "descripcion": "El parque se ubica en el corazón de Totonacapan y es considerado el principal centro de la comunidad indígena veracruzana y el sitio más propicio para el diálogo con otras culturas de México y del mundo.<br><br>Este parque alberga nichos de aromas y sabores, la ceremonia ritual de los voladores, nicho de purificación, nicho de la música, casa de algodón, nicho de la tierra, casa de la alfarería, casa de las pinturas, casa de la sanación y casa de los abuelos sabios.<br><br>El nicho de aromas y sabores se encarga de dar a conocer la gastronomía típica del sitio ya que resalta el sabor de la cocina tradicional totonaca que es hecha a base de granos (maíz, frijol, arroz) vegetales como tomate, cebolla, chiles y hongos.",
+            "imagen": "./assets/img/patrimonios/parque_t.jpg"
+        },
+        {
+            "id": 19,
+            "nombre": "Reserva ecológica de Talhpan en El Remolino",
+            "descripcion": "Esta reserva ecológica se encuentra en la carretera Poza Rica – Martínez de la Torre, Vía San Andrés Km. 38. Para los que buscan el turismo alternativo, gustan de la biodiversidad y son amantes de la aventura este es un excelente sitio para recorrer.<br><br>Aquí se puede disfrutar de una espectacular vegetación con rocas milenarias, todo esto acompañado de pequeñas cascadas y manantiales; además de una espléndida vista del río “Remolino”. La reserva cuenta con hospedaje, alimentación, paseos por el río, recorridos guiados dentro de la reserva, limpias en la “Cueva del Murciélago” y observación de aves.",
+            "imagen": "./assets/img/patrimonios/reserva_talhpan.webp"
+        },
+        {
+            "id": 20,
+            "nombre": "Monumento a la vainilla",
+            "descripcion": "Cuenta la leyenda prehispánica que la tercera esposa del Rey Teniztli tuvo una niña llamada Tzacopontziza (Lucero del Alba). Tzacopontziza se unió al séquito de doce doncellas que adoraban a la diosa, asi, el rey pudo asegurar la virtud de su hija, ya que estaba decidido a que ningún hombre probaría sus mieles.<br><br>El príncipe Zkatan-Oxga (joven venado) raptó a la princesa y la condujo a las montañas de la sierra de Papantla, sabiendo que sería degollado por la afrenta. Un ser guardián de Tonacayohua descubrió a la pareja y los condujo con los sacerdotes, quienes les degollaron sin darles posibilidad de hablar.<br><br>Del suelo donde se esparció la sangre y los corazones de los enamorados surgió una orquidea, cuyas flores se transformaron en vainas que despedían una olor exquisito y penetrante",
+            "imagen": "./assets/img/patrimonios/monumento_vainilla.jpg"
+        },
+        {
+            "id": 21,
+            "nombre": "Cascada \"El Salto\" en Insurgentes socialistas",
+            "descripcion": "Disfruta de la fresca brisa, del sonido del salto de agua, de la fuerza en función de la temporada de la cortina teatral, un verdadero espectáculo de la naturaleza. ¡Relajándose a orilla de la Cascada o aventándose de sus piedras solo o en grupo te encantará!",
+            "imagen": "./assets/img/patrimonios/salto.jpg"
+        },
+        {
+            "id": 22,
+            "nombre": "Cerro del Campanario",
+            "descripcion": "Este cerro se llama así ya que en 1787 la construcción de la “parroquia de la Asunción” no era más que de cal y con techo de tejamanil por lo que no tenía torres, motivo por el cual la campana traída por españoles fue ubicada en un cerro cercano de lado sur (donde actualmente se encuentra el monumento al volador) para hacer sonar la campana tiraban de una cuerda que sujetaba el Badajoz.<br><br>Desde la cima del cerro del campanario, se pueden observar los limites del área urbana de la ciudad de Papantla que se pierden entre vegetaciones y montañas que rodean al mismo.",
+            "imagen": "./assets/img/patrimonios/cerro_campanario.jpg"
+            
+        },
+        {
+            "id": 23,
+            "nombre": "Monumento al volador",
+            "descripcion": "El monumento fue elaborado por el artista papantlense Teodoro Cano, quien fue discípulo de Diego Rivera, por ello es que podemos ver varias pinturas, esculturas y murales de su autoría.<br><br>Al pie del Monumento al Volador podemos apreciar una placa llamada Mensajeros del Sol, y en donde se relata el significado del ritual de los voladores de Papantla, una invocación a la fertilidad de los campos de cultivo.",
+            "imagen": "./assets/img/patrimonios/monumento_volador.jpg"
         }
     ],
 
@@ -72,32 +151,20 @@
         {
             "id": 0,
             "nombre": "Voladores de Papantla",
-            "descripcion": "El origen de los famosos Voladores de Papantla es una plegaria a la divinidad para que haga caer la lluvia sobre los cultivos en tiempos de sequía. Universal y ancestral, esta danza de la fertilidad está plagada de simbolismos.",
+            "descripcion": "El origen de los famosos Voladores de Papantla es una plegaria a la divinidad para que haga caer la lluvia sobre los cultivos en tiempos de sequía. Universal y ancestral, esta danza de la fertilidad está plagada de simbolismos.<br><br>Cada uno de los “voladores” es uno de los cuatro puntos cardinales. El caporal, el personaje que toca el tambor y la flauta, es el centro de la Tierra. Los atuendos hacen referencia al plumaje de las aves. Los listones de colores simbolizan el arcoiris que aparece después de la lluvia.",
             "imagen": "./assets/img/tradiciones/voladores_papantla.jpg"
         },
         {
             "id": 1,
             "nombre": "Fiestas de Corpus Christi",
-            "descripcion": "Se lleva a cabo en junio, es la principal celebración de Papantla; se realiza la famosa danza de los Voladores de Papantla, que consiste en un descenso giratorio desde lo alto de una estructura vertical, al ritmo de un toque musical que ejecuta un danzante en su punta. Según su significado indígena, se trata de hombres pájaro que bailan para agradar a sus dioses. Durante esta festividad también es posible contemplar otro tipo de danzas, como la de Los Guaguas, siempre con el atractivo que representa el colorido de sus trajes.",
+            "descripcion": "Se lleva a cabo en junio, es la principal celebración de Papantla; se realiza la famosa danza de los Voladores de Papantla, que consiste en un descenso giratorio desde lo alto de una estructura vertical, al ritmo de un toque musical que ejecuta un danzante en su punta.<br><br>Según su significado indígena, se trata de hombres pájaro que bailan para agradar a sus dioses. Durante esta festividad también es posible contemplar otro tipo de danzas, como la de Los Guaguas, siempre con el atractivo que representa el colorido de sus trajes.",
             "imagen": "./assets/img/tradiciones/corpus_christi.jpg"
         },
         {
             "id": 2,
-            "nombre": "NOMBRE TRADICION",
-            "descripcion": "DESCRIPCION TRADICION",
-            "imagen": "DIRECCION DE LA IMAGEN"
-        },
-        {
-            "id": 3,
-            "nombre": "NOMBRE TRADICION",
-            "descripcion": "DESCRIPCION TRADICION",
-            "imagen": "DIRECCION DE LA IMAGEN"
-        },
-        {
-            "id": 4,
-            "nombre": "NOMBRE TRADICION",
-            "descripcion": "DESCRIPCION TRADICION",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "nombre": "Día del niño perdido",
+            "descripcion": "El día del niño perdido es una tradición que se celebra cada 7 de diciembre. En este día se prenden velas en las casas y en las banquetas; además los niños jalan carros de cartón que llevan velas. Se cree que el día del niño perdido nace entre los años de 1915 y 1920.<br><br>Se piensa que esta hermosa tradición surge del Evangelio de Lucas, donde se narra una historia acerca de la infancia de Jesús. El Evangelio cuenta que Jesús a los 12 años viaja con sus padres a Jerusalén por las fiestas de Pascua. María y José al emprender su viaje de regreso a Belén, se les pierde el niño Jesús; tres días después lo encuentran en el templo dialogando con los maestros Judíos.",
+            "imagen": "./assets/img/tradiciones/niño_perdido.jpg"
         }
     ],
 
@@ -194,17 +261,6 @@
         }
     ],
 
-    "eventos": [
-        {
-            "id": 0,
-            "nombre": "NOMBRE DEL EVENTO",
-            "descripcion": "DESCRIPCION NOMBRE DEL EVENTO",
-            "horario": "FECHA Y HORA DEL EVENTO",
-            "lugar": "LUGAR DEL EVENTO",
-            "imagen": "DIRECCION DE LA IMAGEN"
-        }
-    ],
-
     "servicios":{ 
         "transporte": [
             {
@@ -263,10 +319,15 @@
         "hospedaje": [
             {
                 "id": 0,
-                "nombre": "NOMBRE DEL SERVICIO",
-                "descripcion": "DESCRIPCION DEL SERVICIO",
-                "url": "ENLACE DEL SITIO QUE OFRECE EL SERVICIO",
-                "imagen": "DIRECCION DE LA IMAGEN"
+                "nombre": "Mercurio Express",
+                "direccion": "Salvador Díaz Mirón #1930, Fracc. Moderno",
+                "url": "http://www.mercurioexpress.com.mx/",
+                "telefono": ["229-935-8632", "229-356-7475"],
+                "email": ["comentarios@mercurioexpress.com.mx"],
+                "ubicacion": {
+                    "lat" : 19.176397220008273,
+                    "lng": -96.1339951719591
+                }
             }
         ],
         "comida": [

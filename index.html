@@ -8,6 +8,7 @@
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Visita Papantla</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <!--
 Colores:
@@ -18,34 +19,34 @@ Colores:
     pink darken-4
 -->
 <body>
-    <nav class="teal">
-        <div class="nav-wrapper container">
-            <a href="index.html" class="brand-logo"><img src="./assets/img/logo.png" class="responsive-img" style="max-width: 30%; margin-top: 5%" alt="" srcset=""></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#patrimonios">Patrimonios</a></li>
-                <li><a href="#gastronomia">Gastronomía</a></li>
-                <li><a href="#tradiciones">Tradiciones</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#eventos">Eventos</a></li>
-            </ul>        
-            <ul id="nav-mobile" class="sidenav pink lighten-1">
-                <li><a href="#" class="white-text">Patrimonios</a></li>
-                <li><a href="#" class="white-text">Gastronomía</a></li>
-                <li><a href="#" class="white-text">Tradiciones</a></li>
-                <li><a href="#" class="white-text">Servicios</a></li>
-                <li><a href="#">Eventos</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>    
+    <div class="navbar-fixed">
+        <nav class="teal">
+            <div class="nav-wrapper container">
+                <a href="index.html" class="brand-logo"><img src="./assets/img/logo.png" class="responsive-img" style="max-width: 30%; margin-top: 5%" alt="" srcset=""></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#patrimonios">Patrimonios</a></li>
+                    <li><a href="#tradiciones">Eventos y tradiciones</a></li>
+                    <li><a href="#gastronomia">Gastronomía</a></li>                    
+                    <li><a href="#servicios">Servicios</a></li>
+                </ul>        
+                <ul id="nav-mobile" class="sidenav pink lighten-1">
+                    <li><a href="#patrimonios" class="white-text">Patrimonios</a></li>
+                    <li><a href="#tradiciones" class="white-text">Eventos y tradiciones</a></li>
+                    <li><a href="#gastronomia" class="white-text">Gastronomía</a></li>                    
+                    <li><a href="#servicios" class="white-text">Servicios</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>    
     <div class="parallax-container paral-1">
         <div class="parallax"><img src="./assets/img/parallax-1.png" class="darker-img"></div>   
         <br>
         <br>
         <br>
         <br>         
-        <h1 class="header center pink-text text-pink-accent-4">Visita Papantla, Veracruz</h1>
-        <h5 class="header center white-text">La ciudad que perfuma el mundo</h5>   
+        <h1 class="titulo-principal header center pink-text text-pink-accent-4">Visita Papantla, Veracruz</h1>
+        <h5 class="titulo-descripcion header center white-text">La ciudad que perfuma el mundo</h5>   
     </div>        
     <div class="container">
         <div class="section">
@@ -66,7 +67,7 @@ Colores:
         <div class="parallax"><img src="./assets/img/parallax-2.png" class="darker-img"></div>
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 white-text">Patrimonios</h5>
+                <h5 class="header col s12 white-text titulo-seccion">Patrimonios</h5>
             </div>
         </div>        
     </div> 
@@ -79,7 +80,7 @@ Colores:
         <div class="parallax"><img src="./assets/img/parallax-4.png" class="darker-img"></div>
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 white-text">Tradiciones y Eventos</h5>
+                <h5 class="header col s12 white-text titulo-seccion">Eventos y tradiciones</h5>
             </div>
         </div>        
     </div> 
@@ -92,7 +93,7 @@ Colores:
         <div class="parallax"><img src="./assets/img/parallax-3.png" class="darker-img"></div>
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 white-text">Gastronomía</h5>
+                <h5 class="header col s12 white-text titulo-seccion">Gastronomía</h5>
             </div>
         </div>        
     </div> 
@@ -105,31 +106,29 @@ Colores:
         <div class="parallax"><img src="./assets/img/parallax-5.png" class="darker-img"></div>
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 white-text">Servicios</h5>
+                <h5 class="header col s12 white-text titulo-seccion">Servicios</h5>
             </div>
         </div>        
     </div> 
     <div class="contenedor sombra">
         <div class="grid" id="eventos_card">
             <div class="patrimonio card">
-                <a href="servicios.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bus" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00dbab" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <a href="servicios.html?tipo=generales">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-info" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00dbab" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <circle cx="6" cy="17" r="2" />
-                        <circle cx="18" cy="17" r="2" />
-                        <path d="M4 17h-2v-11a1 1 0 0 1 1 -1h14a5 7 0 0 1 5 7v5h-2m-4 0h-8" />
-                        <polyline points="16 5 17.5 12 22 12" />
-                        <line x1="2" y1="10" x2="17" y2="10" />
-                        <line x1="7" y1="5" x2="7" y2="10" />
-                        <line x1="12" y1="5" x2="12" y2="10" />
+                        <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                        <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                        <path d="M11 14h1v4h1" />
+                        <path d="M12 11h.01" />
                     </svg>
                     <div class="patrimonio-info">
                         <p class="nombre-patrimonio">Servicios Generales e Información</p>
+                        
                     </div>
                 </a>
             </div>
             <div class="patrimonio card">
-                <a href="servicios.html">
+                <a href="servicios.html?tipo=hospedaje">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00dbab" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <line x1="3" y1="21" x2="21" y2="21" />
@@ -147,7 +146,7 @@ Colores:
                 </a>
             </div>
             <div class="patrimonio card">
-                <a href="servicios.html">
+                <a href="servicios.html?tipo=transporte">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bus" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00dbab" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <circle cx="6" cy="17" r="2" />
@@ -159,12 +158,12 @@ Colores:
                         <line x1="12" y1="5" x2="12" y2="10" />
                     </svg>
                     <div class="patrimonio-info">
-                        <p class="nombre-patrimonio">Transporte</p>
+                        <p class="nombre-patrimonio">Transporte</p>                        
                     </div>
                 </a>
             </div>
             <div class="patrimonio card">
-                <a href="servicios.html">
+                <a href="servicios.html?tipo=comida">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00dbab" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
@@ -175,7 +174,7 @@ Colores:
                 </a>
             </div>
             <div class="patrimonio card">
-                <a href="servicios.html">
+                <a href="servicios.html?tipo=atractivos">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-camera" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00dbab" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <path d="M5 7h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2" />
@@ -188,8 +187,7 @@ Colores:
             </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    
     <script src="./assets/js/materialize.autoinit.js"></script>
     <script src="./assets/js/index.js"></script>
 </body>

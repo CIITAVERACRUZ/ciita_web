@@ -3,21 +3,26 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 function iniciarApp(){
-    mostrarInformacion();
+    const querystring = window.location.search;
+    const params = new URLSearchParams(querystring)
+    const tipo = params.get('tipo');
+
+    if(!tipo)
+        window.location = "/";
+    mostrarInformacion(tipo);
 }
 
-async function mostrarInformacion(){
+async function mostrarInformacion(tipo){
     try {
         const url = './info.json';
 
         const resultado = await fetch(url);
         const db = await resultado.json();
 
-        const { transporte } = db.servicios;
-        console.log(transporte);
-
+        const infoServicio = eval(`db.servicios.${tipo}`);
+        console.log(infoServicio)
         // Funcion para mandar los arrglos correspondientes y el id de la seccion correspondiente
-        domContent(transporte, '#servicios_card', 'Servicios de Transporte');
+        domContent(infoServicio, '#servicios_card', tipo.toUpperCase());
 
     } catch (error) {
         console.log(error)
@@ -26,7 +31,7 @@ async function mostrarInformacion(){
 
 function domContent(array, seccion, name) {
     
-    document.querySelector('#name_service').textContent = name;
+    document.querySelector('#name_service').innerHTML = name;
 
     //Generar el HTML
     array.forEach( item => { 
@@ -84,7 +89,7 @@ function domContent(array, seccion, name) {
         btnMapa.textContent = 'Ubicación';
         btnMapa.addEventListener('click', () => {
             try {
-                mostrarUbicacion(nombre, ubicacion.lat, ubicacion.lng);    
+                mostrarUbicacion(nombre, ubicacion.lat, ubicacion.lng, direccion);    
             } catch (error) {
                 Swal.fire('Sin coordenadas')   
             }
@@ -104,13 +109,13 @@ function domContent(array, seccion, name) {
     })
 }
 
-function mostrarUbicacion(titulo, lat, lng) {
+function mostrarUbicacion(titulo, lat, lng, direccion) {
+    let direccionUrl = direccion.replace(/ /g, "+").replace(/#/g, "")
+    console.log(direccionUrl);
     Swal.fire({
         title: titulo,                
         width: '90%',    
-        html: `
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.4298820964295!2d-96.13626968509729!3d19.17641748703041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c3414a4aa7477b%3A0x7a1d4e772ecbc23e!2sAv.%20Salvador%20D%C3%ADaz%20Mir%C3%B3n%201930%2C%20Moderno%2C%2091910%20Veracruz%2C%20Ver.!5e0!3m2!1ses-419!2smx!4v1628271689163!5m2!1ses-419!2smx" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        `    
+        html: `<iframe width="100%" height="500" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=${direccionUrl}&key=AIzaSyDlkR35laITqbWsuSKekD9Grpxz29iFUTc&center=${lat},${lng}&zoom=18"></iframe>`    
     });
     console.log(lat, lng);
 }

@@ -94,19 +94,19 @@
             "id": 15,
             "nombre": "Museo Comunitario Serafín Olarte",
             "descripcion": "El museo comunitario Serfin Olarte es un espacio cultural que no puedes dejar de visitar. Reconocido ampliamente como ejemplo de autogestión comunitaria ya con mas de 35 años de haber sido creado.<br><br>Situado en el corazón de Cuyuxquihui fue inaugurado en 1985 cuando las tradicionales paredes de tarro y techado de palma conformaban sus salas etnográficas y arqueológicas, mismas que aun con apariencia sencilla estaban llenas de valores para quienes se preocupaban por la memoria histórica de su pueblo.",
-            "imagen": "./assets/img/patrimonios/museo_so.png"
+            "imagen": "./assets/img/patrimonios/museo_so.PNG"
         },
         {
             "id": 16,
             "nombre": "Mural \"En pleno vuelo\"",
             "descripcion": "Este mural fue realizado por el artista José Martínez en el año 2018 y está situado en un edificio ubicado en el centro histórico de la ciudad.<br><br>Este plasma a un niño volador, el cual representa el futuro de la cultura totonaca, mismo que está en posición vertical en señal de fertilización de la tierra, tal y como ocurre en la danza de los Voladores.<br><br>Este mural forma parte de una galería al aire libre y abierta al público en general, ya que la ideología del creador de la obra es que la cultura y el arte deben estar al alcance de todos. Este colorido mural busca, según palabras del artista, inmortalizar la historia el presente.",
-            "imagen": "./assets/img/patrimonios/en_pleno_vuelo.png"
+            "imagen": "./assets/img/patrimonios/en_pleno_vuelo.PNG"
         },
         {
             "id": 17,
             "nombre": "Mercado de artesanías",
             "descripcion": "El Mercado de Artesanías se inauguró el día 27 de junio del 2015, con el fin de que los productores de artesanías de las diferentes comunidades totonacas tuvieran un lugar digno donde ofrecer su mercancía, mostrándole al público la cultura, tradición y emociones que nos puede brindar un producto 100% artesanal totonaco.<br><br>En el Mercado de Artesanías se podrán encontrar artesanías de productores de diferentes comunidades totonacas. Destacando que los productos son elaborados con técnicas antiguas que han adquirido de generación en generación y así poder difundir la cultura en diferentes formas de productos artesanales.",
-            "imagen": "./assets/img/patrimonios/mercado_artesanias.png"
+            "imagen": "./assets/img/patrimonios/mercado_artesanias.PNG"
         },
         {
             "id": 18,

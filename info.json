@@ -319,11 +319,11 @@
         "hospedaje": [
             {
                 "id": 0,
-                "nombre": "Mercurio Express",
-                "direccion": "Salvador Díaz Mirón #1930, Fracc. Moderno",
+                "nombre": "Casa De Huesped Duran",
+                "direccion": "Calle Cerro Del Consuelo 100, Colonia Centro, Papantla De Olarte, C.P. 93400",
                 "url": "http://www.mercurioexpress.com.mx/",
-                "telefono": ["229-935-8632", "229-356-7475"],
-                "email": ["comentarios@mercurioexpress.com.mx"],
+                "telefono": ["784-8423-470"],
+                "email": [],
                 "ubicacion": {
                     "lat" : 19.176397220008273,
                     "lng": -96.1339951719591

@@ -61,3 +61,13 @@ function domContent(array, seccion) {
         document.querySelector(seccion).appendChild(carta);
     })
 }
+
+function mostrarUbicacion() {
+    const direccion = "Reforma 100, Centro, #93400 Papantla, Veracruz";
+    let direccionUrl = direccion.replace(/ /g, "+").replace(/#/g, "");
+    Swal.fire({
+        title: 'H. Ayuntamiento de Papantla de Olarte Veracruz',                
+        width: '90%',    
+        html: `<iframe width="100%" height="500" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=${direccionUrl}&key=AIzaSyDlkR35laITqbWsuSKekD9Grpxz29iFUTc&center=20.4467558,-97.3226556&zoom=18"></iframe>`       
+    });
+}

@@ -53,6 +53,7 @@ function domContent(array, seccion, name) {
         const sitioWebUrl = document.createElement('A');
         sitioWebUrl.textContent = url;
         sitioWebUrl.setAttribute('href', url);
+        sitioWebUrl.setAttribute('class', 'link_web')
         sitioWebUrl.setAttribute('target', '_blank');
 
         sitioWeb.appendChild(sitioWebUrl);
@@ -84,7 +85,7 @@ function domContent(array, seccion, name) {
         const contenido = document.createElement('DIV');
 
         const btnMapa = document.createElement('button');
-        btnMapa.setAttribute('class', 'waves-effect waves-light btn center-align');
+        btnMapa.setAttribute('class', 'btn-color-2 btn center-align');
         btnMapa.setAttribute('style', 'width: 100%');
         btnMapa.textContent = 'Ubicación';
         btnMapa.addEventListener('click', () => {
@@ -111,11 +112,19 @@ function domContent(array, seccion, name) {
 
 function mostrarUbicacion(titulo, lat, lng, direccion) {
     let direccionUrl = direccion.replace(/ /g, "+").replace(/#/g, "")
-    console.log(direccionUrl);
     Swal.fire({
         title: titulo,                
         width: '90%',    
         html: `<iframe width="100%" height="500" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=${direccionUrl}&key=AIzaSyDlkR35laITqbWsuSKekD9Grpxz29iFUTc&center=${lat},${lng}&zoom=18"></iframe>`    
     });
-    console.log(lat, lng);
+}
+
+function mostrarUbicacionGeneral() {
+    const direccion = "Reforma 100, Centro, #93400 Papantla, Veracruz";
+    let direccionUrl = direccion.replace(/ /g, "+").replace(/#/g, "");
+    Swal.fire({
+        title: 'H. Ayuntamiento de Papantla de Olarte Veracruz',                
+        width: '90%',    
+        html: `<iframe width="100%" height="500" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=${direccionUrl}&key=AIzaSyDlkR35laITqbWsuSKekD9Grpxz29iFUTc&center=20.4467558,-97.3226556&zoom=18"></iframe>`       
+    });
 }

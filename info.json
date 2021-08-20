@@ -314,6 +314,14 @@
                 "url": "https://critoursveracruz.com/transportaci%C3%B3n-tur%C3%Adstica",
                 "telefono": ["229-935-9132"],
                 "email": ["contacto@critoursveracruz.com"]
+            },
+            {
+                "id": 7,
+                "nombre": "Scandar",
+                "direccion": "Calle 31 #23, Huilango",
+                "url": "https://www.scandartourscordoba.com/",
+                "telefono": ["271-712-0892"],
+                "email": ["aiza110@live.com.mx", "scandartours@hotmail.com"]
             }
         ],
         "hospedaje": [
@@ -321,22 +329,91 @@
                 "id": 0,
                 "nombre": "Casa De Huesped Duran",
                 "direccion": "Calle Cerro Del Consuelo 100, Colonia Centro, Papantla De Olarte, C.P. 93400",
-                "url": "http://www.mercurioexpress.com.mx/",
-                "telefono": ["784-8423-470"],
-                "email": [],
-                "ubicacion": {
-                    "lat" : 19.176397220008273,
-                    "lng": -96.1339951719591
-                }
+                "url": "",
+                "telefono": ["784-842-3470"],
+                "email": []
+            },
+            {
+                "id": 1,
+                "nombre": "Hotel Arenas",
+                "direccion": "Calle Victoria Sn, Colonia Valentín Gómez Farias, Papantla De Olarte, C.P. 93430",
+                "url": "https://www.facebook.com/hotelarenaspapantla",
+                "telefono": ["784-842-3366"],
+                "email": []
+            },
+            {
+                "id": 2,
+                "nombre": "Hotel Farolito",
+                "direccion": "Calle González Ortega 304, Colonia Centro, Papantla De Olarte, C.P. 93400",
+                "url": "https://www.facebook.com/pages/Hotel%20El%20Farolito/176735045757226/",
+                "telefono": ["784-842-6513"],
+                "email": []
+            },
+            {
+                "id": 2,
+                "nombre": "Hotel Katlen",
+                "direccion": "Calle Benito Juárez 311, Colonia Centro, Papantla De Olarte, C.P. 93400",
+                "url": "",
+                "telefono": ["784-842-3990"],
+                "email": []
+            },
+            {
+                "id": 3,
+                "nombre": "Hotel Pulido",
+                "direccion": "Calle Juan De La Luz Enríquez 205, Colonia Centro, Papantla De Olarte, C.P. 93400",
+                "url": "https://www.facebook.com/HotelPulidoPapantla",
+                "telefono": ["784-842-0036"],
+                "email": []
+            },
+            {
+                "id": 4,
+                "nombre": "Hotel Totonacapan",
+                "direccion": "Calle Olivo Sn, Colonia Centro, Papantla De Olarte, C.P. 93400",
+                "url": "https://www.facebook.com/Hotel-Totonacapan-500425803433590",
+                "telefono": ["784-842-1224"],
+                "email": []
             }
         ],
         "comida": [
             {
                 "id": 0,
-                "nombre": "NOMBRE DEL SERVICIO",
-                "descripcion": "DESCRIPCION DEL SERVICIO",
+                "nombre": "Lonchería Los Panchos",
+                "direccion": "20 de Noviembre #201, Barrio del San Juan, 93400 Papantla, Ver.",
+                "url": "https://loscheria-los-panchos.ueniweb.com/?utm_campaign=gmb",
+                "telefono": ["784-842-5505"],
+                "email": ["abe_olarte@hotmail.com"]
+            },
+            {
+                "id": 1,
+                "nombre": "Taquería “Los Compadres” de el tio Mingo",
+                "direccion": "Dolores #204, Barrio del Zapote, 93400 Papantla de Olarte, Ver.",
+                "url": "",
+                "telefono": ["782-147-3492"],
+                "email": []
+            },
+            {
+                "id": 2,
+                "nombre": "Tortas Monse",
+                "direccion": "3 de Mayo #200, Barrio del Zapote, 93400 Papantla de Olarte, Ver.",
+                "url": "https://www.facebook.com/Tortasmonsee/",
+                "telefono": ["784-104-1908"],
+                "email": []
+            },
+            {
+                "id": 3,
+                "nombre": "Lonchería Toño",
+                "direccion": "Calle Monte Albán 200, Colonia Valentín Gómez Farías, Papantla de Olarte, C.P. 93400",
+                "url": "",
+                "telefono": [],
+                "email": []
+            },
+            {
+                "id": 4,
+                "nombre": "Cocina Económica la Capilla",
+                "direccion": "Carretera Francisco I. Madero 613, Colonia Doctores, Papantla De Olarte, C.P. 93440",
                 "url": "ENLACE DEL SITIO QUE OFRECE EL SERVICIO",
-                "imagen": "DIRECCION DE LA IMAGEN"
+                "telefono": ["784-842-5113"],
+                "email": []
             }
         ],
         "generales": [

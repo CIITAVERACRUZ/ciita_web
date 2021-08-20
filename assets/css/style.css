@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+html { 
+    scroll-behavior: smooth; 
+}
+
 :root{
-    --blanco: #ffffff;
-    --negro: #000000;
-    --primario: #db0030;
-    --secundario: #00dbab;
-    --gris: #757575;
+    --lime: #00CC74;
+    --skyblue: #1DBCFB;
+    --yellow: #FBD517;
+    --yellowText: #FADF3B;
+    --cream: #EFDFD5;
+    --pink: #D671BF;
+    --granate: #FF6161;
+    --green: #2E8734;
 }
 
 body {
     font-family: 'Lora', sans-serif;
+    background-color: var(--cream);
 }
 
 img, svg {
@@ -51,8 +59,7 @@ img, svg {
     -moz-box-shadow: 0px 5px 15px 0px rgba(102,102,102,0.5);
     box-shadow: 0px 5px 15px 0px rgba(102,102,102,0.5);
     padding: 1.8rem;
-    background-color: var(--blanco);
-    border-radius: 1rem;
+    background-color: var(--cream);
 }
 
 .grid {
@@ -74,24 +81,24 @@ img, svg {
 }
 
 .patrimonio {
-    background-color: var(--gris);
+    background-color: var(--granate);
     padding: 1rem;
 }
 
 .nombre-patrimonio {
     font-size: 20px;
-    color: var(--secundario);
+    color: var(--yellowText);
     font-weight: bold;
 }
 
 .info-patrimonio {
     font-size: 15px;
-    color: var(--blanco);
+    color: black;
 }
 
 .nombre-patrimonio,
 .info-patrimonio {
-    font-family: var(--fuente);
+    font-family: 'Lora', sans-serif;
     margin: 1rem 0;
     text-align: center;
     line-height: 1.2;
@@ -99,4 +106,26 @@ img, svg {
 
 .papantla {
     font-size: 18px;
+}
+
+.paral-servicios {
+    height: 10rem;
+}
+
+.color-gradient {
+    background: rgb(29,188,251);
+    background: linear-gradient(90deg, rgba(29,188,251,1) 0%, rgba(251,213,23,1) 50%, rgba(214,113,191,1) 100%);
+}
+
+.link_web {
+    color: black;
+    text-decoration: underline;
+}
+
+.btn-color {
+    background: var(--green);
+}
+
+.btn-color-2 {
+    background: var(--lime);
 }

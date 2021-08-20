@@ -65,6 +65,85 @@
             "nombre": "Parques Ecológicos Kiwikgolo",
             "descripcion": "El parque ecológico “Kiwikgolo” es naturaleza, armonía y mucho aprendizaje de la cultura totonaca y está considerado para ser incluido en las listas de las Áreas Naturales Protegidas de Veracruz. El área natural conserva todavía reservorios de la flora original de la región, además cuenta con un mariposario para proteger y conocer a estos emblemáticos insectos. Se trata de un espacio familiar que cuenta con atractivos para los más valientes, como una tirolesa de 470 metros de recorrido sobre los árboles.",
             "imagen": "./assets/img/patrimonios/parque_kiwikgolo.jpg"
+        },
+        {
+            "id": 11,
+            "nombre": "Casa de Cultura Lázara Meldiu",
+            "descripcion": "Este recinto te mostrara a través de pláticas, talleres, cursos y actividades culturales las bonitas costumbres y tradiciones que se realizan en el bello Papantla, te permitirá adentrarte en la historia de este lugar conocerás las tradiciones danzantes de los Totonacapan veracruzanos con magníficos videos que realizan sus bellas tradiciones y danzas en agradecimiento a los diversos dioses, grandes fiestas consagradas y sus diversos patrones provisorios de deidades.",
+            "imagen": "./assets/img/patrimonios/casa_cultura_lm.jpg"
+        },
+        {
+            "id": 12,
+            "nombre": "Centro de las Artes Indígenas",
+            "descripcion": "Con la intención de salvaguardar el patrimonio cultural de la región se creo el Centro de las Artes Indígenas, se encuentra dentro del Parque Takilhsukut de Papantla, es pionero en su genero y su principal finalidad es el enseñar oficios y actividades artísticos culturales para los habitantes y turistas del lugar.<br><br>Si ingresas al Parque Temático Takilhsukut no olvides visitar este centro que te dejara además de gran información un apoyo a los indígenas de la región",
+            "imagen": "./assets/img/patrimonios/centro_artes_indigenas.PNG"
+        },
+        {
+            "id": 13,
+            "nombre": "Parque Israel C. Tellez",
+            "descripcion": "Es uno de los parques mas representativos de la región, en el, se llevan a cabo diversas actividades y eventos culturales de la región, este parque data del año 1886 a lo largo del tiempo se han generado diversas remodelaciones y construcciones que han ayudado a tener un parque mas significativo y llamativo para los pobladores de la región, así como para los turistas.<br><br>Los viernes podrás disfrutar del danzón que se realiza, así como los sábados musicales y domingos culturales estos eventos se proyectan como escaparate para apoyo a los artistas y creativos de la región.",
+            "imagen": "./assets/img/patrimonios/parque_ict.jpg"
+        },
+        {
+            "id": 14,
+            "nombre": "Tenixtepec",
+            "descripcion": "Localizado en el municipio de Papantla con una población no mayor de 579 personas, una comunidad indígena donde su lenguaje es indígena ya que ellos no hablan español. Cuenta con una gran y maravillosa naturaleza llena de paisajes y monumentos que te enamoraran y te adentraran en la inmersa naturaleza de este lugar.<br><br>En Barra Tenixtepec hay múltiples opciones de diversión, es perfecta para la práctica de deportes acuáticos, para descansar y gozar de la naturaleza.<br><br>Localizada a 52 kilómetros de Barra de Cazones por la estatal sin número, te invitamos a que visites este lugar y ayudes a ser parte de la economía de la localidad.",
+            "imagen": "./assets/img/patrimonios/tenixtepec.jpg"
+        },
+        {
+            "id": 15,
+            "nombre": "Museo Comunitario Serafín Olarte",
+            "descripcion": "El museo comunitario Serfin Olarte es un espacio cultural que no puedes dejar de visitar. Reconocido ampliamente como ejemplo de autogestión comunitaria ya con mas de 35 años de haber sido creado.<br><br>Situado en el corazón de Cuyuxquihui fue inaugurado en 1985 cuando las tradicionales paredes de tarro y techado de palma conformaban sus salas etnográficas y arqueológicas, mismas que aun con apariencia sencilla estaban llenas de valores para quienes se preocupaban por la memoria histórica de su pueblo.",
+            "imagen": "./assets/img/patrimonios/museo_so.PNG"
+        },
+        {
+            "id": 16,
+            "nombre": "Mural \"En pleno vuelo\"",
+            "descripcion": "Este mural fue realizado por el artista José Martínez en el año 2018 y está situado en un edificio ubicado en el centro histórico de la ciudad.<br><br>Este plasma a un niño volador, el cual representa el futuro de la cultura totonaca, mismo que está en posición vertical en señal de fertilización de la tierra, tal y como ocurre en la danza de los Voladores.<br><br>Este mural forma parte de una galería al aire libre y abierta al público en general, ya que la ideología del creador de la obra es que la cultura y el arte deben estar al alcance de todos. Este colorido mural busca, según palabras del artista, inmortalizar la historia el presente.",
+            "imagen": "./assets/img/patrimonios/en_pleno_vuelo.PNG"
+        },
+        {
+            "id": 17,
+            "nombre": "Mercado de artesanías",
+            "descripcion": "El Mercado de Artesanías se inauguró el día 27 de junio del 2015, con el fin de que los productores de artesanías de las diferentes comunidades totonacas tuvieran un lugar digno donde ofrecer su mercancía, mostrándole al público la cultura, tradición y emociones que nos puede brindar un producto 100% artesanal totonaco.<br><br>En el Mercado de Artesanías se podrán encontrar artesanías de productores de diferentes comunidades totonacas. Destacando que los productos son elaborados con técnicas antiguas que han adquirido de generación en generación y así poder difundir la cultura en diferentes formas de productos artesanales.",
+            "imagen": "./assets/img/patrimonios/mercado_artesanias.PNG"
+        },
+        {
+            "id": 18,
+            "nombre": "Parque Takilhsukut",
+            "descripcion": "El parque se ubica en el corazón de Totonacapan y es considerado el principal centro de la comunidad indígena veracruzana y el sitio más propicio para el diálogo con otras culturas de México y del mundo.<br><br>Este parque alberga nichos de aromas y sabores, la ceremonia ritual de los voladores, nicho de purificación, nicho de la música, casa de algodón, nicho de la tierra, casa de la alfarería, casa de las pinturas, casa de la sanación y casa de los abuelos sabios.<br><br>El nicho de aromas y sabores se encarga de dar a conocer la gastronomía típica del sitio ya que resalta el sabor de la cocina tradicional totonaca que es hecha a base de granos (maíz, frijol, arroz) vegetales como tomate, cebolla, chiles y hongos.",
+            "imagen": "./assets/img/patrimonios/parque_t.jpg"
+        },
+        {
+            "id": 19,
+            "nombre": "Reserva ecológica de Talhpan en El Remolino",
+            "descripcion": "Esta reserva ecológica se encuentra en la carretera Poza Rica – Martínez de la Torre, Vía San Andrés Km. 38. Para los que buscan el turismo alternativo, gustan de la biodiversidad y son amantes de la aventura este es un excelente sitio para recorrer.<br><br>Aquí se puede disfrutar de una espectacular vegetación con rocas milenarias, todo esto acompañado de pequeñas cascadas y manantiales; además de una espléndida vista del río “Remolino”. La reserva cuenta con hospedaje, alimentación, paseos por el río, recorridos guiados dentro de la reserva, limpias en la “Cueva del Murciélago” y observación de aves.",
+            "imagen": "./assets/img/patrimonios/reserva_talhpan.webp"
+        },
+        {
+            "id": 20,
+            "nombre": "Monumento a la vainilla",
+            "descripcion": "Cuenta la leyenda prehispánica que la tercera esposa del Rey Teniztli tuvo una niña llamada Tzacopontziza (Lucero del Alba). Tzacopontziza se unió al séquito de doce doncellas que adoraban a la diosa, asi, el rey pudo asegurar la virtud de su hija, ya que estaba decidido a que ningún hombre probaría sus mieles.<br><br>El príncipe Zkatan-Oxga (joven venado) raptó a la princesa y la condujo a las montañas de la sierra de Papantla, sabiendo que sería degollado por la afrenta. Un ser guardián de Tonacayohua descubrió a la pareja y los condujo con los sacerdotes, quienes les degollaron sin darles posibilidad de hablar.<br><br>Del suelo donde se esparció la sangre y los corazones de los enamorados surgió una orquidea, cuyas flores se transformaron en vainas que despedían una olor exquisito y penetrante",
+            "imagen": "./assets/img/patrimonios/monumento_vainilla.jpg"
+        },
+        {
+            "id": 21,
+            "nombre": "Cascada \"El Salto\" en Insurgentes socialistas",
+            "descripcion": "Disfruta de la fresca brisa, del sonido del salto de agua, de la fuerza en función de la temporada de la cortina teatral, un verdadero espectáculo de la naturaleza. ¡Relajándose a orilla de la Cascada o aventándose de sus piedras solo o en grupo te encantará!",
+            "imagen": "./assets/img/patrimonios/salto.jpg"
+        },
+        {
+            "id": 22,
+            "nombre": "Cerro del Campanario",
+            "descripcion": "Este cerro se llama así ya que en 1787 la construcción de la “parroquia de la Asunción” no era más que de cal y con techo de tejamanil por lo que no tenía torres, motivo por el cual la campana traída por españoles fue ubicada en un cerro cercano de lado sur (donde actualmente se encuentra el monumento al volador) para hacer sonar la campana tiraban de una cuerda que sujetaba el Badajoz.<br><br>Desde la cima del cerro del campanario, se pueden observar los limites del área urbana de la ciudad de Papantla que se pierden entre vegetaciones y montañas que rodean al mismo.",
+            "imagen": "./assets/img/patrimonios/cerro_campanario.jpg"
+            
+        },
+        {
+            "id": 23,
+            "nombre": "Monumento al volador",
+            "descripcion": "El monumento fue elaborado por el artista papantlense Teodoro Cano, quien fue discípulo de Diego Rivera, por ello es que podemos ver varias pinturas, esculturas y murales de su autoría.<br><br>Al pie del Monumento al Volador podemos apreciar una placa llamada Mensajeros del Sol, y en donde se relata el significado del ritual de los voladores de Papantla, una invocación a la fertilidad de los campos de cultivo.",
+            "imagen": "./assets/img/patrimonios/monumento_volador.jpg"
         }
     ],
 
@@ -72,32 +151,20 @@
         {
             "id": 0,
             "nombre": "Voladores de Papantla",
-            "descripcion": "El origen de los famosos Voladores de Papantla es una plegaria a la divinidad para que haga caer la lluvia sobre los cultivos en tiempos de sequía. Universal y ancestral, esta danza de la fertilidad está plagada de simbolismos.",
+            "descripcion": "El origen de los famosos Voladores de Papantla es una plegaria a la divinidad para que haga caer la lluvia sobre los cultivos en tiempos de sequía. Universal y ancestral, esta danza de la fertilidad está plagada de simbolismos.<br><br>Cada uno de los “voladores” es uno de los cuatro puntos cardinales. El caporal, el personaje que toca el tambor y la flauta, es el centro de la Tierra. Los atuendos hacen referencia al plumaje de las aves. Los listones de colores simbolizan el arcoiris que aparece después de la lluvia.",
             "imagen": "./assets/img/tradiciones/voladores_papantla.jpg"
         },
         {
             "id": 1,
             "nombre": "Fiestas de Corpus Christi",
-            "descripcion": "Se lleva a cabo en junio, es la principal celebración de Papantla; se realiza la famosa danza de los Voladores de Papantla, que consiste en un descenso giratorio desde lo alto de una estructura vertical, al ritmo de un toque musical que ejecuta un danzante en su punta. Según su significado indígena, se trata de hombres pájaro que bailan para agradar a sus dioses. Durante esta festividad también es posible contemplar otro tipo de danzas, como la de Los Guaguas, siempre con el atractivo que representa el colorido de sus trajes.",
+            "descripcion": "Se lleva a cabo en junio, es la principal celebración de Papantla; se realiza la famosa danza de los Voladores de Papantla, que consiste en un descenso giratorio desde lo alto de una estructura vertical, al ritmo de un toque musical que ejecuta un danzante en su punta.<br><br>Según su significado indígena, se trata de hombres pájaro que bailan para agradar a sus dioses. Durante esta festividad también es posible contemplar otro tipo de danzas, como la de Los Guaguas, siempre con el atractivo que representa el colorido de sus trajes.",
             "imagen": "./assets/img/tradiciones/corpus_christi.jpg"
         },
         {
             "id": 2,
-            "nombre": "NOMBRE TRADICION",
-            "descripcion": "DESCRIPCION TRADICION",
-            "imagen": "DIRECCION DE LA IMAGEN"
-        },
-        {
-            "id": 3,
-            "nombre": "NOMBRE TRADICION",
-            "descripcion": "DESCRIPCION TRADICION",
-            "imagen": "DIRECCION DE LA IMAGEN"
-        },
-        {
-            "id": 4,
-            "nombre": "NOMBRE TRADICION",
-            "descripcion": "DESCRIPCION TRADICION",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "nombre": "Día del niño perdido",
+            "descripcion": "El día del niño perdido es una tradición que se celebra cada 7 de diciembre. En este día se prenden velas en las casas y en las banquetas; además los niños jalan carros de cartón que llevan velas. Se cree que el día del niño perdido nace entre los años de 1915 y 1920.<br><br>Se piensa que esta hermosa tradición surge del Evangelio de Lucas, donde se narra una historia acerca de la infancia de Jesús. El Evangelio cuenta que Jesús a los 12 años viaja con sus padres a Jerusalén por las fiestas de Pascua. María y José al emprender su viaje de regreso a Belén, se les pierde el niño Jesús; tres días después lo encuentran en el templo dialogando con los maestros Judíos.",
+            "imagen": "./assets/img/tradiciones/niño_perdido.jpg"
         }
     ],
 
@@ -105,109 +172,92 @@
         {
             "id": 0,
             "nombre": "Mole con carne de cerdo, gallina o guajolote",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Disfruta de un delicioso mole papanteco con una rica pieza de pollo o de guajolóte y unas deliciosas enmoladas, como sea que lo pruebes el mole papanteco es el más rico de la región totonaca.",
+            "imagen": "./assets/img/platillos/mole_con_carne.png"
         },
         {
             "id": 1,
-            "nombre": "Tamales de Fríjol y Acoyotl",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "nombre": "Tamales de Fríjol",
+            "descripcion": "Son básicos en la alimentación cotidiana, nos dan identidad y hablan de nuestra propia historia, de la forma en que nuestros antepasados supieron contemplar el medio ambiente y aprovechar hojas, frutos, semillas, tallos, raíces y flores. Hacerlos supone no solo una forma de alimentarse sino de concebir el mundo.",
+            "imagen": "./assets/img/platillos/tamal_frijol.png"
         },
         {
             "id": 2,
             "nombre": "Tamales de Picadillo",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Los totonacas de la costa norte del estado de Veracruz confeccionan este tamal con masa de maíz rellena de picadillo de carne de pollo, papa, zanahoria, pasitas, alcaparras, aceitunas, almendras o piñón, guisados en salsa de jitomate, hierbas de olor y pimienta.",
+            "imagen": "./assets/img/platillos/tamal_picadillo.png"
         },
         {
             "id": 3,
             "nombre": "Tamal Envuelto en Hoja de Plátano con Carne de Cerdo",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Estos tamales veracruzanos con carne de puerco son famosos en la cocina mexicana jarocha; el chile guajilo y la hoja de plátano hacen la diferencia.",
+            "imagen": "./assets/img/platillos/tamal_hoja_platano.png"
         },
         {
             "id": 4,
             "nombre": "Bollitos de Anís y Pintos",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "En Veracruz existe una gran variedad de tamales, y, al tener influencia española en su gastronomía, genera este tipo de recetas mestizas que combina lo prehispánico con lo colonial. Esta variedad de tamal no es muy dulce, ya que tiene miel de abeja en lugar de azúcar, por lo que se puede incluir para hacer algo más dulce.",
+            "imagen": "./assets/img/platillos/bollitos.png"
         },
         {
             "id": 5,
             "nombre": "Totopos de Maíz con Sal o Azúcar",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Alimento tradicional de la región que por lo regular se sirve al centro como entrada o para acompañar ciertos platillos.",
+            "imagen": "./assets/img/platillos/totopos.png"
         },
         {
             "id": 6,
             "nombre": "Tintines",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Galletas tipo polvorón elaboradas de masa de maíz molido con anís y panela. A la masa se le da forma redonda y gruesa de aproximadamente 3 cm de diámetro y se cuecen al comal; su sabor recuerda al pinole del centro del país.",
+            "imagen": "./assets/img/platillos/tintines.png"
         },
         {
             "id": 7,
             "nombre": "Pemoles",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Los pemoles son unas galletas en forma de rosquilla que se hacen en toda la Huasteca. Se pueden decorar con azúcar glass y pueden ser consumidas solas o acompañadas de café, chocolate, así como leche.",
+            "imagen": "./assets/img/platillos/pemoles.png"
         },
         {
             "id": 8,
             "nombre": "Enchiladas de Jitomate",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Las enchiladas son uno de los platillos mexicanos más tradicionales. La característica principal de estas enchiladas radica en el uso de chiles chilacates, de un sabor tan especial que las hacen únicas.",
+            "imagen": "./assets/img/platillos/enchiladas_jitomate.jpg"
         },
         {
             "id": 9,
             "nombre": "Enchiladas de Pipián",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "El pipián es un platillo mexicano elaborado principalmente con pepita de calabaza y también que hay variedades de enchiladas, como por ejemplo el pipían verde, el blanco, el rojo, entre otros. En estas recetas no solo se utiliza la pepita, sino que también hay recetas que añaden cacahuate y ajonjolí.",
+            "imagen": "./assets/img/platillos/enchiladas_pipian.jpg"
         },
         {
             "id": 10,
             "nombre": "Zacahuil",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Entre la amplia variedad de tamales mexicanos podemos encontrar el zacahuil o zacahuile, el cual destaca por su gran tamaño. El zacahuil se elabora con masa de maíz martajado y molido con chile; tradicionalmente se rellena de carne y se envuelve con hoja de papatla y/o plátano. Finalmente es cocinado en horno de barro o de tierra.",
+            "imagen": "./assets/img/platillos/zacahuil.png"
         },
         {
             "id": 11,
             "nombre": "Bocoles Rellenos",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Estas pequeñas sabrosuras de masa circular se llaman “Bocoles” en la región de Huasteca de México. Estas deliciosas tortillitas gruesas de masa de maíz se pueden servir con queso, o rellenas como una gordita. Algunos de los rellenos son chicharrones de cerdo en salsa, huevos, picadillo y frijoles refritos.",
+            "imagen": "./assets/img/platillos/bocoles_rellenos.jpg"
         },
         {
             "id": 12,
             "nombre": "Dulces de calabaza",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "El Dulce de Calabaza en los hogares mexicanos, ya que la dicha fruta se vende en cualquier tianguis o mercado. Este delicioso postre mexicano se acostumbra preparar para los festejos de Día de Muertos.",
+            "imagen": "./assets/img/platillos/dulces_calabaza.jpg"
         },
         {
             "id": 13,
             "nombre": "Atole de Diversos Dabores, Fríos o Calientes",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "El Atole es una bebida muy popular en México. Se prepara agregando piloncillo o panela en agua más canela, luego se deja espesar con harina de maíz y por último se le adiciona leche hasta que quede cremoso. Esta dulce bebida reconfortante de maíz tiene innumerables variaciones como en puré de fruta o chocolate.",
+            "imagen": "./assets/img/platillos/atole.jpg"
         },
         {
             "id": 14,
-            "nombre": "Manu de Res",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
-        },
-        {
-            "id": 15,
             "nombre": "Molotes",
-            "descripcion": "DESCRIPCION DEL PLATILLO",
-            "imagen": "DIRECCION DE LA IMAGEN"
-        }
-    ],
-
-    "eventos": [
-        {
-            "id": 0,
-            "nombre": "NOMBRE DEL EVENTO",
-            "descripcion": "DESCRIPCION NOMBRE DEL EVENTO",
-            "horario": "FECHA Y HORA DEL EVENTO",
-            "lugar": "LUGAR DEL EVENTO",
-            "imagen": "DIRECCION DE LA IMAGEN"
+            "descripcion": "Los molotes son un antojito mexicano hecho con masa de maíz, mezclada con papa o con manteca, parecidos en la forma de hacerlos a una quesadilla o a una empanada frita, pero la forma de encerrar el relleno es diferente.",
+            "imagen": "./assets/img/platillos/molotes.jpg"
         }
     ],
 
@@ -219,7 +269,11 @@
                 "direccion": "Salvador Díaz Mirón #1930, Fracc. Moderno",
                 "url": "http://www.mercurioexpress.com.mx/",
                 "telefono": ["229-935-8632", "229-356-7475"],
-                "email": ["comentarios@mercurioexpress.com.mx"]
+                "email": ["comentarios@mercurioexpress.com.mx"],
+                "ubicacion": {
+                    "lat" : 19.176397220008273,
+                    "lng": -96.1339951719591
+                }
             },
             {
                 "id": 1,
@@ -260,24 +314,106 @@
                 "url": "https://critoursveracruz.com/transportaci%C3%B3n-tur%C3%Adstica",
                 "telefono": ["229-935-9132"],
                 "email": ["contacto@critoursveracruz.com"]
+            },
+            {
+                "id": 7,
+                "nombre": "Scandar",
+                "direccion": "Calle 31 #23, Huilango",
+                "url": "https://www.scandartourscordoba.com/",
+                "telefono": ["271-712-0892"],
+                "email": ["aiza110@live.com.mx", "scandartours@hotmail.com"]
             }
         ],
         "hospedaje": [
             {
                 "id": 0,
-                "nombre": "NOMBRE DEL SERVICIO",
-                "descripcion": "DESCRIPCION DEL SERVICIO",
-                "url": "ENLACE DEL SITIO QUE OFRECE EL SERVICIO",
-                "imagen": "DIRECCION DE LA IMAGEN"
+                "nombre": "Casa De Huesped Duran",
+                "direccion": "Calle Cerro Del Consuelo 100, Colonia Centro, Papantla De Olarte, C.P. 93400",
+                "url": "",
+                "telefono": ["784-842-3470"],
+                "email": []
+            },
+            {
+                "id": 1,
+                "nombre": "Hotel Arenas",
+                "direccion": "Calle Victoria Sn, Colonia Valentín Gómez Farias, Papantla De Olarte, C.P. 93430",
+                "url": "https://www.facebook.com/hotelarenaspapantla",
+                "telefono": ["784-842-3366"],
+                "email": []
+            },
+            {
+                "id": 2,
+                "nombre": "Hotel Farolito",
+                "direccion": "Calle González Ortega 304, Colonia Centro, Papantla De Olarte, C.P. 93400",
+                "url": "https://www.facebook.com/pages/Hotel%20El%20Farolito/176735045757226/",
+                "telefono": ["784-842-6513"],
+                "email": []
+            },
+            {
+                "id": 2,
+                "nombre": "Hotel Katlen",
+                "direccion": "Calle Benito Juárez 311, Colonia Centro, Papantla De Olarte, C.P. 93400",
+                "url": "",
+                "telefono": ["784-842-3990"],
+                "email": []
+            },
+            {
+                "id": 3,
+                "nombre": "Hotel Pulido",
+                "direccion": "Calle Juan De La Luz Enríquez 205, Colonia Centro, Papantla De Olarte, C.P. 93400",
+                "url": "https://www.facebook.com/HotelPulidoPapantla",
+                "telefono": ["784-842-0036"],
+                "email": []
+            },
+            {
+                "id": 4,
+                "nombre": "Hotel Totonacapan",
+                "direccion": "Calle Olivo Sn, Colonia Centro, Papantla De Olarte, C.P. 93400",
+                "url": "https://www.facebook.com/Hotel-Totonacapan-500425803433590",
+                "telefono": ["784-842-1224"],
+                "email": []
             }
         ],
         "comida": [
             {
                 "id": 0,
-                "nombre": "NOMBRE DEL SERVICIO",
-                "descripcion": "DESCRIPCION DEL SERVICIO",
+                "nombre": "Lonchería Los Panchos",
+                "direccion": "20 de Noviembre #201, Barrio del San Juan, 93400 Papantla, Ver.",
+                "url": "https://loscheria-los-panchos.ueniweb.com/?utm_campaign=gmb",
+                "telefono": ["784-842-5505"],
+                "email": ["abe_olarte@hotmail.com"]
+            },
+            {
+                "id": 1,
+                "nombre": "Taquería “Los Compadres” de el tio Mingo",
+                "direccion": "Dolores #204, Barrio del Zapote, 93400 Papantla de Olarte, Ver.",
+                "url": "",
+                "telefono": ["782-147-3492"],
+                "email": []
+            },
+            {
+                "id": 2,
+                "nombre": "Tortas Monse",
+                "direccion": "3 de Mayo #200, Barrio del Zapote, 93400 Papantla de Olarte, Ver.",
+                "url": "https://www.facebook.com/Tortasmonsee/",
+                "telefono": ["784-104-1908"],
+                "email": []
+            },
+            {
+                "id": 3,
+                "nombre": "Lonchería Toño",
+                "direccion": "Calle Monte Albán 200, Colonia Valentín Gómez Farías, Papantla de Olarte, C.P. 93400",
+                "url": "",
+                "telefono": [],
+                "email": []
+            },
+            {
+                "id": 4,
+                "nombre": "Cocina Económica la Capilla",
+                "direccion": "Carretera Francisco I. Madero 613, Colonia Doctores, Papantla De Olarte, C.P. 93440",
                 "url": "ENLACE DEL SITIO QUE OFRECE EL SERVICIO",
-                "imagen": "DIRECCION DE LA IMAGEN"
+                "telefono": ["784-842-5113"],
+                "email": []
             }
         ],
         "generales": [

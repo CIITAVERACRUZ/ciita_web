@@ -3,21 +3,26 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 function iniciarApp(){
-    mostrarInformacion();
+    const querystring = window.location.search;
+    const params = new URLSearchParams(querystring)
+    const tipo = params.get('tipo');
+
+    if(!tipo)
+        window.location = "/";
+    mostrarInformacion(tipo);
 }
 
-async function mostrarInformacion(){
+async function mostrarInformacion(tipo){
     try {
         const url = './info.json';
 
         const resultado = await fetch(url);
         const db = await resultado.json();
 
-        const { transporte } = db.servicios;
-        console.log(transporte);
-
+        const infoServicio = eval(`db.servicios.${tipo}`);
+        console.log(infoServicio)
         // Funcion para mandar los arrglos correspondientes y el id de la seccion correspondiente
-        domContent(transporte, '#servicios_card', 'Servicios de Transporte');
+        domContent(infoServicio, '#servicios_card', tipo.toUpperCase());
 
     } catch (error) {
         console.log(error)
@@ -26,11 +31,11 @@ async function mostrarInformacion(){
 
 function domContent(array, seccion, name) {
     
-    document.querySelector('#name_service').textContent = name;
+    document.querySelector('#name_service').innerHTML = name;
 
     //Generar el HTML
     array.forEach( item => { 
-        const { nombre, direccion, email, telefono, url } = item;
+        const { nombre, direccion, email, telefono, ubicacion, url } = item;
             
         //DOM Scripting
         const name = document.createElement('P');
@@ -48,6 +53,7 @@ function domContent(array, seccion, name) {
         const sitioWebUrl = document.createElement('A');
         sitioWebUrl.textContent = url;
         sitioWebUrl.setAttribute('href', url);
+        sitioWebUrl.setAttribute('class', 'link_web')
         sitioWebUrl.setAttribute('target', '_blank');
 
         sitioWeb.appendChild(sitioWebUrl);
@@ -77,16 +83,48 @@ function domContent(array, seccion, name) {
         carta.classList.add('patrimonio', 'card');
     
         const contenido = document.createElement('DIV');
+
+        const btnMapa = document.createElement('button');
+        btnMapa.setAttribute('class', 'btn-color-2 btn center-align');
+        btnMapa.setAttribute('style', 'width: 100%');
+        btnMapa.textContent = 'Ubicación';
+        btnMapa.addEventListener('click', () => {
+            try {
+                mostrarUbicacion(nombre, ubicacion.lat, ubicacion.lng, direccion);    
+            } catch (error) {
+                Swal.fire('Sin coordenadas')   
+            }
+        });
     
         firstDiv.appendChild(name);
-        firstDiv.appendChild(info);
+        firstDiv.appendChild(info)        
         firstDiv.appendChild(correosDiv);
         firstDiv.appendChild(telefonosDiv);
         firstDiv.appendChild(sitioWeb);
+        firstDiv.appendChild(btnMapa);
         contenido.appendChild(firstDiv);
         carta.appendChild(contenido);
     
         //Inyectar en HTML
         document.querySelector(seccion).appendChild(carta);
     })
+}
+
+function mostrarUbicacion(titulo, lat, lng, direccion) {
+    let direccionUrl = direccion.replace(/ /g, "+").replace(/#/g, "")
+    Swal.fire({
+        title: titulo,                
+        width: '90%',    
+        html: `<iframe width="100%" height="500" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=${direccionUrl}&key=AIzaSyDlkR35laITqbWsuSKekD9Grpxz29iFUTc&center=${lat},${lng}&zoom=18"></iframe>`    
+    });
+}
+
+function mostrarUbicacionGeneral() {
+    const direccion = "Reforma 100, Centro, #93400 Papantla, Veracruz";
+    let direccionUrl = direccion.replace(/ /g, "+").replace(/#/g, "");
+    Swal.fire({
+        title: 'H. Ayuntamiento de Papantla de Olarte Veracruz',                
+        width: '90%',    
+        html: `<iframe width="100%" height="500" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=${direccionUrl}&key=AIzaSyDlkR35laITqbWsuSKekD9Grpxz29iFUTc&center=20.4467558,-97.3226556&zoom=18"></iframe>`       
+    });
 }
